@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using WebApplicationMVC.Models;
 using System.Web;
 using System.Web.Mvc;
 
@@ -10,7 +11,9 @@ namespace WebApplicationMVC.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            var model = new HomeViewData();
+            model.Nome = "cletche";
+            return View(model);
         }
 
         public ActionResult About()
