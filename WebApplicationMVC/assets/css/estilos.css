@@ -2,3 +2,127 @@
    background-image:url(../images/fundo.jpg);
 }
 
+h4{
+    background-color:red;
+}
+
+.image{
+    height:100%;
+    width:100%;
+    text-align:center;
+}
+.image img{
+    width:50%;
+    padding-top:15%;
+    padding-bottom: 15%;
+}
+
+
+
+
+
+
+
+
+.login h1{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.fomulario{
+    height:100%;
+    width:75%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.form-group{
+    width:100%;
+    margin-bottom:3%;
+    position:relative;
+}
+
+.form-control {
+    border-radius: 25px;
+    background-color: gainsboro;
+    color: red;
+    font-size: 80%;
+    height: 45px;
+    padding: 6px;
+    padding-left: 35px;
+}
+.fa-envelope, .fa-lock{
+    position:absolute;
+    padding-top: 40px;
+    padding-left:10px;
+}
+
+.btn-login{
+    width:100%;
+    height:100%;
+    text-align:center;
+}
+
+.btn-login button{
+    width:70%;
+}
+
+.btn-primary{
+    background-color:#34b034;
+    color:white;
+    font-weight:bold;
+    padding:3.5%;
+    border-radius:25px;
+    border:none;
+}
+
+.recup-senha{
+    font-size:85%;
+    color:black;
+    font-weight:600;
+}
+
+.creat{
+    margin-top:15%;
+}
+.creat a{
+    font-size:58%;
+    color:black;
+    font-weight:600;
+}
+.creat a:hover{
+    color:blue;
+}
+
+/*endregion*/
+
+/*#region Media Query*/
+/*tablet*/
+@media only screen and (max-width: 960px) and (min-width:769px){
+
+}
+
+/*mobile*/
+@media only screen and (max-width: 768px) and (min-width:451px) {
+}
+
+
+@media only screen and (max-width: 450px) {
+    .card.minhight{
+        font-size:12px;
+    }
+    .image img{
+        padding-top:30%;
+    }
+    .fomulario h1{
+        font-size:20px;
+    }
+    .image img{
+        padding-top:10%
+    }
+}
+/*endregion*/

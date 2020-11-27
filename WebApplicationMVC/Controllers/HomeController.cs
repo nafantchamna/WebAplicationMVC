@@ -12,20 +12,20 @@ namespace WebApplicationMVC.Controllers
         public ActionResult Index()
         {
             var model = new HomeViewData();
-            model.Nome = "cletche";
+            model.Nome = "PAGINA DE HOME CRIAR ...";
             return View(model);
         }
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "CRIAR PAGINA DE CADASTRO AQUI";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "CRIAR ALGUMA COISA AQUI";
 
             return View();
         }
