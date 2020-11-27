@@ -9,17 +9,17 @@ namespace WebApplicationMVC
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/assets/scripts/jquery/jquery.js"));
+            "~/assets/scripts/jquery/jquery-{version}.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
-                        "~/assets/scripts/jquery-validate/jquery.validate*"));
+            "~/assets/scripts/jquery/jquery.validate*"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/assets/scripts/bootstrap/bootstrap*"));
+            "~/assets/scripts/bootstrap/bootstrap.js"));
 
-            bundles.Add(new StyleBundle("~/bundles/css").Include(
-                      "~/assets/css/bootstrap.css"));
-                     
+            bundles.Add(new StyleBundle("~/Content/css").Include(
+            "~/assets/css/bootstrap.css",
+            "~/assets/css/estilos.css"));
         }
     }
 }

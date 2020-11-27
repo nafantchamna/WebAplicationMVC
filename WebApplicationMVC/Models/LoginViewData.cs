@@ -7,5 +7,6 @@ namespace WebApplicationMVC.Models
 {
     public class LoginViewData
     {
+        public string Nome { get; set; }
     }
 }

@@ -122,6 +122,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\cadastroController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Global.asax.cs">
@@ -138,7 +139,9 @@
     <Content Include="assets\css\bootstrap-reboot.min.css" />
     <Content Include="assets\css\bootstrap.css" />
     <Content Include="assets\css\bootstrap.min.css" />
-    <Content Include="assets\images\fundo-site.jpeg" />
+    <Content Include="assets\css\estilos.css" />
+    <Content Include="assets\images\fundo.jpg" />
+    <Content Include="assets\images\login.png" />
     <Content Include="assets\scripts\jquery-validate\additional-methods.js" />
     <Content Include="assets\scripts\jquery-validate\additional-methods.min.js" />
     <Content Include="assets\scripts\jquery-validate\jquery.validate.js" />
@@ -394,7 +397,7 @@
     <Content Include="assets\css\bootstrap-grid.css.map" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Views\Login\" />
+    <Folder Include="Views\cadastro\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\fonts\glyphicons-halflings-regular.woff2" />
@@ -407,6 +410,8 @@
     <None Include="packages.config" />
     <Content Include="Views\Shared\_.cshtml" />
     <Content Include="Views\Shared\_scripts.cshtml" />
+    <Content Include="Views\index.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="assets\scripts\bootstrap\index.d.ts" />

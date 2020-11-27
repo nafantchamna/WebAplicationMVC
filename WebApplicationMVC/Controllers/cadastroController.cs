@@ -2,17 +2,21 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using WebApplicationMVC.Models;
 using System.Web.Mvc;
 
 namespace WebApplicationMVC.Controllers
 {
-    public class LoginController:Controller
+    public class cadastroController : Controller
     {
+        // GET: cadastro
         public ActionResult Index()
         {
-
             return View();
+        }
+        [HttpPost]
+        public ActionResult CadastroUsuario()
+        {
+            return View("Index");
         }
 
     }
