@@ -72,8 +72,8 @@ C:\Users\treinamento\AplicacaoWebMVC\WebApplicationMVC\WebApplicationMVC\bin\Sys
 C:\Users\treinamento\AplicacaoWebMVC\WebApplicationMVC\WebApplicationMVC\bin\Newtonsoft.Json.xml
 C:\Users\treinamento\AplicacaoWebMVC\WebApplicationMVC\WebApplicationMVC\bin\Antlr3.Runtime.pdb
 C:\Users\treinamento\AplicacaoWebMVC\WebApplicationMVC\WebApplicationMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\treinamento\AplicacaoWebMVC\WebApplicationMVC\WebApplicationMVC\obj\Debug\WebApplicationMVC.csprojAssemblyReference.cache
 C:\Users\treinamento\AplicacaoWebMVC\WebApplicationMVC\WebApplicationMVC\obj\Debug\WebApplicationMVC.csproj.CoreCompileInputs.cache
 C:\Users\treinamento\AplicacaoWebMVC\WebApplicationMVC\WebApplicationMVC\obj\Debug\WebApplicationMVC.csproj.CopyComplete
 C:\Users\treinamento\AplicacaoWebMVC\WebApplicationMVC\WebApplicationMVC\obj\Debug\WebApplicationMVC.dll
 C:\Users\treinamento\AplicacaoWebMVC\WebApplicationMVC\WebApplicationMVC\obj\Debug\WebApplicationMVC.pdb
-C:\Users\treinamento\AplicacaoWebMVC\WebApplicationMVC\WebApplicationMVC\obj\Debug\WebApplicationMVC.csprojAssemblyReference.cache

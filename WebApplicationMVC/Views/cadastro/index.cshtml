@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "index";
+}
+<h3>Cadastro</h3>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-sm-12 clo-md-12">
+            <div class="cadastro">
+                <form name="form" action="@Url.Action("CadastroUsuario, Cadastro")"method="post">
+                    <div class="form-group">
+                        <label>Nome</label>
+                        <input class= "form-control" name="Nome" placeholder="Nome" type="text" value=""/>
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input class="form-control" name="Email" placeholder="Email" type="text" value="" />
+                    </div>
+                    <div class="form-group">
+                        <label>Senha</label>
+                        <input class="form-control" name="Senha" placeholder="Senha" type="text" value="" />
+                    </div>
+                    <div class="form-group">
+                        <label>Data de nascimento</label>
+                        <input class="form-control" name="nascimento" placeholder="Data de Nascimento" type="date" value="" />
+                    <div class="row">
+                        </div>
+                    </div>
+                    <a class="btn btn-primary" href="#"  role="button">A href Button submit></a>
+                    <button class="btn btn-primary" type="submit"> Button submit</button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

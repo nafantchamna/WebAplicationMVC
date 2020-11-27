@@ -1,4 +1,16 @@
-﻿@model WebApplicationMVC.Models.LoginViewData
+﻿@using WebApplicationMVC.Models
+
+@model WebApplicationMVC.Models.LoginViewData
+
+@{ 
+
+//var model = new LoginViewData();
+//model.Titulo = "Fazer Login";
+//model.Lista = new List<string>();
+//model.Lista.Add("Nome");
+//model.Lista.Add("Email");
+//model.Lista.Add("Senha");
+}
 
 <div class="container">
     <div class="row">
@@ -15,7 +27,7 @@
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                         <div class="roow">
                             <form class="fomulario">
-                                <h1 class="text-center"> Fazer Login</h1>
+                                @*<h1 class="text-center">@Login.Titulo</h1>*@
                                 <div class="form-group">
                                     <label for="exempleInputEmail1"></label>
                                     <i class="fas fa-envelope"></i>
@@ -41,3 +53,18 @@
         </div>
     </div>
 </div>
+
+@*<div>
+    @foreach(var item in Login.Lista)
+    {
+        if(item == "Nomes")
+        {
+            <p>@item</p>
+        }
+        else
+        {
+            <h1>@item</h1>
+        }
+    }
+
+</div>*@

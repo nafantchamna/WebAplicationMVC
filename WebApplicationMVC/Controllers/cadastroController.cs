@@ -14,9 +14,9 @@ namespace WebApplicationMVC.Controllers
             return View();
         }
         [HttpPost]
-        public ActionResult CadastroUsuario()
+        public ActionResult CadastroUsuario(string nome, string Email,string senha, DateTime nascimnto)
         {
-            return View("Index");
+            return View();
         }
 
     }
